@@ -1,0 +1,18 @@
+body, div, span, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, blockquote,p, address, pre, form, fieldset, input, textarea, select, table, th, td { margin:0; padding:0; }
+
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+
+fieldset, abbr, acronym, img { border:0 none; }
+
+ul, ol { list-style:none; }
+
+caption , th { font-weight:normal; text-align: left;  }
+
+address, b, em, i , strong { font-weight:normal; font-style:normal; }
+
+ins { text-decoration:none; }
+del { text-decoration: line-through; }
+
+blockquote:before, blockquote:after, q:before, q:after { content:""; }
+
+hr { display:none; }

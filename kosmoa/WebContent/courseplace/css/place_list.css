@@ -1,0 +1,211 @@
+.cou_title { text-decoration:none; color: black; } 
+
+.placeHeader {		/* 占쎌젟占쎌졊 獄쏉옙 占쎈툡占쎄숲 �겫占썽겫占� */
+	display:flex;
+	width:1100px;
+	margin: 0 auto;
+	margin-top: 120px;
+	border: 1px solid black; 
+	height: 50px; 
+	justify-content: space-between;
+	align-items: center;
+}
+
+#plsArray {			/* 占쎌젟占쎌졊 占쎄퐬占쎌젟 �겫占썽겫占� */
+	width:300px;
+	text-align: center;
+}
+
+#plsFilter {		/* 占쎈툡占쎄숲 甕곌쑵�뱣 �겫占썽겫占� */
+	width:100px;
+	text-align: center; 
+}
+
+
+
+.flex-container{		/* 占쎌삢占쎈꺖 占쎈립 占쎈뻬占쎌뱽 揶쏅Ŋ�뼢占쎈뮉 div, flex 占쎄퐬占쎌젟 */
+    display: flex; 
+    padding: 10px; 
+    margin:5px; 
+    background-color: white; 
+    flex-glow:0;
+    flex-shrink:0;
+    justify-content: space-evenly;
+}
+
+.place { 			/* 占쎈립 占쎌삢占쎈꺖�몴占� 癰귣똻肉т틠�눖�뮉 div */
+	border: 1px solid black; 
+	margin: 5px; 
+	width: 350px; 
+	height: 400px; 
+	text-align: center;
+}
+
+.plsPhoto{			/* 占쎈립 占쎌삢占쎈꺖 占쎈툧占쎈퓠占쎄퐣 癰귣똻肉э쭪占쏙옙�뮉 占쎄텢筌욑옙 �겫占썽겫占� */
+	border:1px solid black;
+	width: 330px;
+	height: 330px;
+	margin:10px auto; 
+}
+
+.plsTitle{			/* 占쎈립 占쎌삢占쎈꺖 占쎈툧占쎈퓠占쎄퐣 癰귣똻肉э쭪占쏙옙�뮉 占쎌삢占쎈꺖 占쎌뵠�뵳占� �겫占썽겫占� */
+	display:inline-block;
+	width: 250px;
+	height: 45px;
+	margin:0 10px;
+}
+
+.plsAverage{		/* 占쎈립 占쎌삢占쎈꺖 占쎈툧占쎈퓠占쎄퐣 癰귣똻肉э쭪占쏙옙�뮉 占쎈즸占쎌젎 �겫占썽겫占� */
+	display:inline-block;
+	width: 60px;
+	height: 45px;
+}
+
+.footerWrapper { 	/* 占쎈쳳占쎄숲占쎌겫占쎈열  */
+	border:1px solid black;
+	margin-top: 20px; 
+	height: 300px; 
+}
+
+#wrapperBox{ 		/* 占쎌읈筌ｋ�占쏙옙 揶쏅Ŋ�뼢占쎈뮉 div */
+	width: 520px;
+	height: 750px;
+	padding: 5px;	
+	border: 1px solid black;
+	position: relative;
+	background:#efefef;
+}
+.tabBox {			/* tap 甕곌쑵�뱣占쎌뱽 揶쏅Ŋ�뼢占쎈뮉 div */
+	display: inline-block;
+	width: 350px;
+	position: absolute;
+	z-index: 0;
+}
+
+#fPlus{				/* 筌띯뫁�맄占쎌벥 占쎈쐭癰귣떯由� 甕곌쑵�뱣 */
+	display: inline-block;
+	width: 100px;
+	margin-left: 45px;
+	text-align: right;
+	font-size: 0.8em;
+}
+input[type="radio"] {	/* 占쎈툡占쎌뵠占쎈탵筌≪뼐由�, �뜮袁⑨옙甕곕뜇�깈 筌≪뼐由� radio 甕곌쑵�뱣 */
+	display: none;
+}
+
+input[type="radio"] + label {		/* 占쎈툡占쎌뵠占쎈탵筌≪뼐由�, �뜮袁⑨옙甕곕뜇�깈 筌≪뼐由� label 疫뀐옙占쎌쁽 */
+	display: inline-block; 
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	background: #fff;
+	color: #999;
+	font-size: 13px;
+	cursor: pointer;
+	
+}
+
+input[type="radio"]:checked + label {	/* 占쎈툡占쎌뵠占쎈탵筌≪뼐由�, �뜮袁⑨옙甕곕뜇�깈 筌≪뼐由� 餓ο옙 占쎄퐨占쎄문占쎈쭆  label */
+	background: #8be7f4;
+	color: #000;
+	border-bottom: 1px solid #8be7f4;
+	border-top: 1px solid #000;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+}
+
+
+table {				/* table */
+	width: 500px;
+	height: 600px;
+	celspacing: 0;
+	margin-top: 30px;
+	border-collapse: collapse;
+	border: 1px solid black;
+	text-align: center;
+	position: absolute;
+	z-index: 2;
+}
+
+td {				/* table占쎌벥 td */
+	padding: 5px;
+}
+
+.cata{				/*  �겫袁⑥첒 td */
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	padding-left: 10px;
+	text-align: left;
+	
+}
+.plus {				/* �겫袁⑥첒 td 餓ο옙 占쎈쐭癰귣떯由� 甕곌쑵�뱣 */
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	text-align: right;
+	padding-right: 10px;
+	font-size: 0.8em;
+}
+#buttonBox {		/* 筌랃옙 獄쏅쵐肉� button占쎌뱽 揶쏅Ŋ�뼢占쎈뮉 div */
+	width: 500px;
+	margin-top: 20px;
+	text-align: center;
+	position: absolute;
+	bottom:30px;
+}
+.button {			/* �뿆�뫁�꺖, 占쎌읅占쎌뒠 button */
+	width: 100px;
+	height: 50px;
+	margin: 0 15px;
+}
+
+
+input[type="checkbox"] {
+	display:none;
+}
+
+input[type="checkbox"] + label {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+input[type="checkbox"]:checked + label {
+	background: #8be7f4;
+}
+ #areaTitle {
+	height: 35px;
+	text-align: left;
+	line-height: 35px;
+	position:absolute;
+	bottom:30px;
+}
+
+
+.areaList {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.firstArea {
+	border-top: 1px solid black;
+}
+
+.areaList p {
+	width: 20%;
+	heith: 100%;
+	margin: 0;
+	text-align: center;
+	line-height: 50px;
+	border-left: 1px solid black;
+}
+#slideUp{
+	position: absolute;
+	top:0; left:30%;
+	z-index : 9999;
+	height:0; overflow:hidden;
+}
+
+#pla-entertain { display:none;  }

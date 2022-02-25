@@ -1,0 +1,276 @@
+.cou_title { text-decoration:none; color: black; } 
+
+.courseWrapper { margin-top: 120px;   height: 1600px; }	  
+.course-container{
+	display: flex; padding: 10px; 
+    width: 700px; height: 330px; margin: 5px; color: white;
+    font-size: 36px; text-align: center; 
+}
+.course-container.space-evenly{ justify-content: space-evenly; }
+
+.footerWrapper { margin-top: 20px;  height: 300px; }
+.innerCourse { width:350px; height:310px;   }	 
+
+.page-container { /* page div */
+	display:flex; padding:10px;  
+    margin:5px; background-color: white;
+}
+.page-container.space-evenly{ justify-content: space-evenly; } 
+.page{
+	width:10px; height:10px; margin:5px; color:black;
+	font-size:15px;	text-align:center;	background-color: white;
+}
+
+.tag-container { 
+	display:flex; padding:10px;  
+    margin:5px;
+}
+.tag-container.space-evenly{ justify-content: space-evenly; }
+.tag{
+	width:70px; height:10px; margin:3px; color:black;
+	font-size:15px;	text-align:center; margin-bottom:10px;
+	display: inline-block;
+}
+.flex-container{
+    display: flex; padding: 10px;  
+    margin:5px; background-color: white; 
+}
+.flex-container.space-evenly{ justify-content: space-evenly; }
+.course{
+    width: 700px; height: 330px; margin: 5px; 
+    font-size: 36px; text-align: center; background-color: cornflowerblue;
+}
+
+.course-img { width:300px; height:160px;  }
+.course-name { font-size: 0.8em; font-family: Georgia, "Times New Roman", serif; }
+.course-places { color:black; font-size : 0.7em; margin:10px; } /* 코스 경로 보여줌 */
+
+.placeHeader {		 
+	display:flex;
+	width:1100px;
+	margin: 0 auto;
+	margin-top: 120px;
+	height: 50px; 
+	justify-content: space-between;
+	align-items: center;
+}
+
+#plsArray {			 
+	width:300px;
+	text-align: center;
+}
+
+#plsFilter {		 
+	width:100px;
+	text-align: center; 
+}
+
+.placewWrapper {	 
+	width: 1100px;
+	margin: 0 auto;
+	height: auto; 
+}
+
+.flex-container{		 
+    display: flex; 
+    padding: 10px; 
+    margin:5px; 
+    background-color: white; 
+    flex-glow:0;
+    flex-shrink:0;
+    justify-content: space-evenly;
+}
+
+.place { 			 
+	margin: 5px; 
+	width: 350px; 
+	height: 400px; 
+	text-align: center;
+}
+
+.plsPhoto{			 
+	width: 330px;
+	height: 330px;
+	margin:10px auto; 
+}
+
+.plsTitle{			 
+	display:inline-block;
+	width: 250px;
+	height: 45px;
+	margin:0 10px;
+}
+
+.plsAverage{		 
+	display:inline-block;
+	width: 60px;
+	height: 45px;
+}
+
+.footerWrapper { 	 
+	margin-top: 20px; 
+	height: 300px; 
+}
+
+#wrapperBox{ 		 
+	width: 520px;
+	height: 750px;
+	padding: 5px;	
+	position: relative;
+	border: 1px solid orange;
+	background:white;
+	-webkit-user-select:none; 
+	-moz-user-select:none; 
+	-ms-user-select:none; 
+	user-select:none
+
+}
+.tabBox {			 
+	display: inline-block;
+	width: 350px;
+	position: absolute;
+	z-index: 0;
+}
+
+#fPlus{				 
+	display: inline-block;
+	width: 100px;
+	margin-left: 45px;
+	text-align: right;
+	font-size: 0.8em;
+}
+input[type="radio"] {	 
+	display: none;
+}
+
+input[type="radio"] + label {		 
+	display: inline-block; 
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	background: #fff;
+	color: #999;
+	font-size: 13px;
+	cursor: pointer;
+	
+}
+
+input[type="radio"]:checked + label {	 
+	background: #8be7f4;
+	color: #000;
+	border-top: 1px solid #000;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+}
+
+
+table {				/* table */
+	width: 500px;
+	height: 600px;
+	celspacing: 0;
+	margin-top: -8px;
+	border-collapse: collapse;
+	border: 1px solid black;
+	text-align: center;
+	position: absolute;
+	z-index: 2;
+}
+
+td {				 
+	padding: 5px;
+}
+
+.cata{				 
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	padding-left: 10px;
+	text-align: left;
+	
+}
+.plus {				 
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	text-align: right;
+	padding-right: 10px;
+	font-size: 0.8em;
+}
+#buttonBox {		 
+	width: 500px;
+	margin-top: 20px;
+	text-align: center;
+	position: absolute;
+	bottom:30px;
+	
+}
+.button {			 
+	width: 100px;
+	height: 50px;
+	margin: 0 15px;
+	background: white;
+	border: 1px solid orange;
+}
+
+.button:hover { font-weight:bold; }
+
+
+input[type="checkbox"] {
+	display:none;
+}
+
+input[type="checkbox"] + label {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+input[type="checkbox"]:checked + label {
+	font-weight:bold;
+}
+
+ #areaTitle {
+	height: 35px;
+	text-align: left;
+	line-height: 35px;
+	position:absolute;
+	bottom:30px;
+}
+
+
+.areaList {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.firstArea {
+	border-top: 1px solid black;
+}
+
+.areaList p {
+	width: 20%;
+	heith: 100%;
+	margin: 0;
+	text-align: center;
+	line-height: 50px;
+	border-left: 1px solid black;
+}
+#slideUp{
+	position: absolute;
+	 left:30%;
+	z-index : 9999;
+}
+
+.footerWrapper { margin-top: 20px; border: 1px solid black; height: 300px; }
+
+#clwrapper { margin-top:150px;  }
+
+#slideUp{
+	position: absolute;
+	top:0; left:30%;
+	z-index : 9999;
+	height:0; overflow:hidden;
+}
+
+.cour_desc { text-align:center; font-size : 0.5em; color:black; margin:50px; }
